@@ -4,7 +4,7 @@ import Projects from './components/Projects'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Contact from './components/Contact'
-
+import Resume from './components/Resume'
 import './App.css'
 
 function App() {
@@ -17,6 +17,7 @@ function App() {
      <main>
   </main>
   <Footer/>
+  <Resume/>
 </div>
   );
 }

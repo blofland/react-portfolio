@@ -4,7 +4,7 @@ import { Nav } from 'react-bootstrap';
 
 function Navigation(props) {
     
-    return (<Nav>
+    return (<Nav fill variant="tabs" defaultActiveKey="/home">
       <Nav.Item><Nav.Link href="/">About Me</Nav.Link></Nav.Item>
       <Nav.Item><Nav.Link href="/portfolio">Portfolio</Nav.Link></Nav.Item>
       <Nav.Item><Nav.Link href="/contact">Contact</Nav.Link></Nav.Item>

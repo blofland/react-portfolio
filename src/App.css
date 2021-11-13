@@ -26,3 +26,22 @@
         font-weight: bold;
         color: black;
         border-right: 1px solid black }
+
+/* footer */
+
+.footlist{
+  display:flexbox;
+  justify-content:center;
+}
+
+
+.footlist li {
+  text-decoration: none;
+  list-style: none;
+  display: inline;
+  float: center;
+  border: black solid 1mm;
+  padding: 4mm;
+  margin: 2mm;
+}
+        

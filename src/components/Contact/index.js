@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-import "../Contact/contact.css"
-
 
 function Contact(props) {
     const [name, setName] = useState("")
@@ -15,7 +13,7 @@ function Contact(props) {
             console.log({ name, email, message })
             reset()
         }}>
-            <h1>Contact me</h1>
+            <h1 id="header">Contact me</h1>
             <div>
                 <label htmlFor="name">Name:</label>
                 <input type="text" name="name"

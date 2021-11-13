@@ -1,14 +1,15 @@
 import React from 'react'
 import { capitalizeFirstLetter } from "../../utils/helpers";
 import { Nav } from 'react-bootstrap';
-
+import {NavLink } from 'react-router-dom'
+import "../../App.css"
 function Navigation(props) {
     
-    return (<Nav fill variant="tabs" defaultActiveKey="/home">
-      <Nav.Item><Nav.Link href="/">About Me</Nav.Link></Nav.Item>
-      <Nav.Item><Nav.Link href="/portfolio">Portfolio</Nav.Link></Nav.Item>
-      <Nav.Item><Nav.Link href="/contact">Contact</Nav.Link></Nav.Item>
-      <Nav.Item><Nav.Link href="/resume">Resume</Nav.Link></Nav.Item>
+    return (<Nav><ul id="nav">
+      <li><Nav.Item><NavLink to="/">About Me</NavLink></Nav.Item></li>
+      <li><Nav.Item><NavLink to="/portfolio">Portfolio</NavLink></Nav.Item></li>
+      <li><Nav.Item><NavLink to="/contact">Contact</NavLink></Nav.Item></li>
+      <li><Nav.Item><NavLink to="/resume">Resume</NavLink></Nav.Item></li></ul>
     </Nav>
     )
     }

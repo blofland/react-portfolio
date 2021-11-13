@@ -1,4 +1,6 @@
 import React from 'react'
+import SimpleReactFooter from "simple-react-footer";
+import "./footer.css"
 
 function Footer(props){
     return <footer>
@@ -9,6 +11,7 @@ function Footer(props){
         </ul>
     </footer>
 }
+
 
 
 

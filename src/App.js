@@ -7,20 +7,21 @@ import Contact from './components/Contact'
 import Resume from './components/Resume'
 import Portfolio from './components/Portfolio'
 import './App.css'
+import {Routes, Route} from 'react-router'
 
 function App() {
   return (
-<div>
-  <Header/>
-<Contact/>
-    <Projects/>
-    <About/> 
-     <main>
-  </main>
-  <Footer/>
-  <Resume/>
-  <Portfolio/>
-</div>
+    <>
+    <Header/>
+    <Routes>
+      <Route path="/" element={<About/>}/>
+      <Route path="/contact" element={<Contact/>}/>
+      <Route path="/resume" element={<Resume/>}/>
+      <Route path="/portfolio" element={<Portfolio/>}/>
+ </Routes>
+   <Footer/>
+    </>
+
   );
 }
 

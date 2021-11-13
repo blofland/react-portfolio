@@ -5,9 +5,9 @@ import "./footer.css"
 function Footer(props){
     return <footer>
         <ul>
-            <li><a href="github.com">Github</a></li>
-            <li><a href="linkedin.com">LinkedIn</a></li>
-            <li><a href="twitter.com">Twitter</a></li>
+            <li><a href="https://github.com/blofland">Github</a></li>
+            <li><a href="https://www.linkedin.com/in/boedi-lofland-4b30b8213/">LinkedIn</a></li>
+            <li><a href="https://www.twitter.com">Twitter</a></li>
         </ul>
     </footer>
 }

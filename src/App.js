@@ -9,10 +9,12 @@ import Portfolio from './components/Portfolio'
 import './App.css'
 import {Routes, Route} from 'react-router'
 
+
 function App() {
   return (
     <>
     <Header/>
+    
     <Routes>
       <Route path="/" element={<About/>}/>
       <Route path="/contact" element={<Contact/>}/>

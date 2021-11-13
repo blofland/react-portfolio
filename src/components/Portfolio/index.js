@@ -7,29 +7,32 @@ import Image5 from '../../assets/images/test5.jpg';
 import Image6 from '../../assets/images/test6.jpg';
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
-import {Row, Col} from 'react-bootstrap/'
-
-
-
-
-
+import {Container, Row, Col} from "react-bootstrap"
 
 function Portfolio(props) {
-    return <header>
-<Row>
-<Col><Card style={{ width: '18rem' }}>
-  <Card.Img variant="top" src={Image1} />
-  <Card.Body>
-    <Card.Title>Weekender</Card.Title>
-    <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
-    </Card.Text>
-    <Button variant="primary">Github</Button>
-  </Card.Body>
-</Card></Col>
-<Col>
-<Card style={{ width: '18rem' }}>
+  if(props.hello) console.log(props.hello)
+    return <section>
+      <Container>
+        <Row>
+          <Col>
+          <Card>
+            <Card.Img variant="top" src={Image1} fluid style={{maxWidth: "100%"}} />
+            <Card.Body>
+              <Card.Title>Weekender</Card.Title>
+              <Card.Text>
+                Some quick example text to build on the card title and make up the bulk of
+                the card's content.
+              </Card.Text>
+              <Button variant="primary">Github</Button>
+            </Card.Body>
+          </Card>
+          </Col>
+          <Col>
+          </Col>
+        </Row>
+    </Container>
+
+{/* <Card style={{ width: '18rem' }}>
   <Card.Img variant="top" src={Image2}/>
   <Card.Body>
     <Card.Title>Project 1</Card.Title>
@@ -39,8 +42,8 @@ function Portfolio(props) {
     </Card.Text>
     <Button variant="primary">Github</Button>
   </Card.Body>
-</Card></Col>
-<Col>
+</Card>
+
 <Card style={{ width: '18rem' }}>
   <Card.Img variant="top" src={Image3}/>
   <Card.Body>
@@ -51,9 +54,9 @@ function Portfolio(props) {
     </Card.Text>
     <Button variant="primary">Github</Button>
   </Card.Body>
-</Card></Col>
-</Row>
-<Row>
+</Card>
+
+
 <Card style={{ width: '18rem' }}>
   <Card.Img variant="top" src={Image4}/>
   <Card.Body>
@@ -87,13 +90,14 @@ function Portfolio(props) {
     </Card.Text>
     <Button variant="primary">Github</Button>
   </Card.Body>
-</Card></Row>
+</Card> */}
 
-
-
-    </header>
+</section>
 }
 
 
 
 export default Portfolio;
+
+
+

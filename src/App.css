@@ -58,9 +58,14 @@
   border-bottom: black solid 1mm;
 }
 /* portfolio */
-img {
+.pimage {
 width: 500px;
 max-height: 250px;
+border-radius: 8px;
+}
+
+.pimage:hover {
+  box-shadow: 0 0 4px 4px rgba(186, 0, 0, 0.5);
 }
 
 

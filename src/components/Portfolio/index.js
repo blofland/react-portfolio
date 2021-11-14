@@ -1,8 +1,8 @@
 import React from 'react'
-import Image1 from '../../assets/images/javaquiz.png';
+import Image1 from '../../assets/images/top5.jpg';
 import Image2 from '../../assets/images/runbuddy.png';
 import Image3 from '../../assets/images/weekender.png';
-import Image4 from '../../assets/images/test4.jpg';
+import Image4 from '../../assets/images/javaquiz.png';
 import Image5 from '../../assets/images/test5.jpg';
 import Image6 from '../../assets/images/test6.jpg';
 import Card from 'react-bootstrap/Card'
@@ -10,88 +10,24 @@ import Button from 'react-bootstrap/Button'
 import {Container, Row, Col} from "react-bootstrap"
 
 function Portfolio(props) {
-  if(props.hello) console.log(props.hello)
     return <section>
-      <Container>
-        <Row>
-          <Col>
-          <Card>
-            <Card.Img variant="top" src={Image1} fluid style={{maxWidth: "100%"}} />
-            <Card.Body>
-              <Card.Title>Weekender</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up the bulk of
-                the card's content.
-              </Card.Text>
-              <Button variant="primary">Github</Button>
-            </Card.Body>
-          </Card>
-          </Col>
-          <Col>
-          </Col>
-        </Row>
-    </Container>
+     <div className="container1">
+       <figure><a href="https://goat-meat.herokuapp.com/"><img src={Image1} label="Runbuddy" fluid style={{maxWidth: "100%"}}/></a> <figcaption>Top 5 <a href="https://github.com/browneli003/Top-5"></a>https://github.com/browneli003/Top-5  </figcaption></figure>
+       <figure><a href="https://lernantino.github.io/run-buddy/"><img src={Image2} label="Runbuddy" fluid style={{maxWidth: "100%"}}/></a> <figcaption>RunBuddy https://github.com/blofland/run-buddy </figcaption></figure>
+      </div>
 
-{/* <Card style={{ width: '18rem' }}>
-  <Card.Img variant="top" src={Image2}/>
-  <Card.Body>
-    <Card.Title>Project 1</Card.Title>
-    <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
-    </Card.Text>
-    <Button variant="primary">Github</Button>
-  </Card.Body>
-</Card>
+      <div className="container1">
+       <figure><a href="https://sdillon215.github.io/Weekender/"><img src={Image3} label="Runbuddy" fluid style={{maxWidth: "100%"}}/></a> <figcaption>Weekender https://github.com/blofland/Weekender</figcaption></figure>
+       <figure><a href="https://blofland.github.io/code-quiz/"><img src={Image4} label="Runbuddy" fluid style={{maxWidth: "100%"}}/></a> <figcaption>JavaQuiz https://github.com/blofland/code-quiz   </figcaption></figure>
+      </div>
 
-<Card style={{ width: '18rem' }}>
-  <Card.Img variant="top" src={Image3}/>
-  <Card.Body>
-    <Card.Title>Project 1</Card.Title>
-    <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
-    </Card.Text>
-    <Button variant="primary">Github</Button>
-  </Card.Body>
-</Card>
+      <div className="container1">
+       <figure><a href="www.github.com"><img src={Image5} label="Runbuddy" fluid style={{maxWidth: "100%"}}/></a> <figcaption>Testing</figcaption></figure>
+       <figure><a href="www.github.com"><img src={Image6} label="Runbuddy" fluid style={{maxWidth: "100%"}}/></a> <figcaption>Testing</figcaption></figure>
+      </div>
+      
 
-
-<Card style={{ width: '18rem' }}>
-  <Card.Img variant="top" src={Image4}/>
-  <Card.Body>
-    <Card.Title>Project 1</Card.Title>
-    <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
-    </Card.Text>
-    <Button variant="primary">Github</Button>
-  </Card.Body>
-</Card>
-
-<Card style={{ width: '18rem' }}>
-  <Card.Img variant="top" src={Image5}/>
-  <Card.Body>
-    <Card.Title>Project 1</Card.Title>
-    <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
-    </Card.Text>
-    <Button variant="primary">Github</Button>
-  </Card.Body>
-</Card>
-<Card style={{ width: '18rem' }}>
-  <Card.Img variant="top" src={Image6}/>
-  <Card.Body>
-    <Card.Title>Project 1</Card.Title>
-    <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
-    </Card.Text>
-    <Button variant="primary">Github</Button>
-  </Card.Body>
-</Card> */}
-
+  
 </section>
 }
 

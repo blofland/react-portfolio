@@ -7,13 +7,13 @@ function Contact(props) {
     const reset = () => [setName, setEmail, setMessage].forEach(fn => fn(''))
     return (
 
-
-        <form id="contact-form" onSubmit={(e) => {
+<div className="container">
+        <form onSubmit={(e) => {
             e.preventDefault()
             console.log({ name, email, message })
             reset()
         }}>
-            <h1 id="header">Contact me</h1>
+            <h1 className="header">Contact me</h1>
             <div>
                 <label htmlFor="name">Name:</label>
                 <input type="text" name="name"
@@ -43,7 +43,7 @@ function Contact(props) {
                     required />
             </div>
             <button type="submit">Submit</button>
-        </form>
+        </form></div>
     );
 }
 export default Contact;

@@ -11,7 +11,7 @@ import {Container, Row, Col} from "react-bootstrap"
 
 function Portfolio(props) {
     return <section>
-      <h1>Portfolio</h1>
+      <h1  className="headish">Portfolio</h1>
       <p>Click on image to be taken to live page.</p>
      <div className="container1">
        <figure><a href="https://goat-meat.herokuapp.com/"><img src={Image1} className="pimage" fluid style={{maxWidth: "100%"}}/></a> <figcaption>Top 5 <a href="https://github.com/browneli003/Top-5">GitHub</a>  </figcaption></figure>

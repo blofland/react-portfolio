@@ -1,4 +1,6 @@
-
+body {
+  background-color:cornflowerblue;
+}
 /* Nav Bar */
 #nav {
   width: 100%;
@@ -9,13 +11,16 @@
 #nav li {
   float: right; }
 
+  #nav li:hover{
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.5);
+  }
   #nav {
     width: 100%;
     float: right;
-    margin: 0 0 3em 0;
+    margin: 0 0 3em 0; 
     padding: 0;
     list-style: none;
-    background-color: #f10000;
+    background-color: #2804f0;
     border-bottom: 1px solid black; 
     border-top: 1px solid black; }
 
@@ -54,7 +59,10 @@
   align-items: center;
 }
 
-.header {
+.headish {
+  background-color: #004060; 
+  color: #ffffff; 
+  padding: 4px;
   border-bottom: black solid 1mm;
 }
 /* portfolio */
@@ -65,7 +73,7 @@ border-radius: 8px;
 }
 
 .pimage:hover {
-  box-shadow: 0 0 4px 4px rgba(186, 0, 0, 0.5);
+  box-shadow: 0 0 4px 4px rgba(38, 0, 255, 0.5);
 }
 
 
@@ -81,3 +89,9 @@ border-radius: 8px;
   justify-content: space-evenly;
   margin-bottom: 80px;
 }
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+}
+

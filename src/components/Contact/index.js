@@ -13,7 +13,7 @@ function Contact(props) {
             console.log({ name, email, message })
             reset()
         }}>
-            <h1 className="header">Contact me</h1>
+            <h1 className="headish">Contact me</h1>
             <div>
                 <label htmlFor="name">Name:</label>
                 <input type="text" name="name"

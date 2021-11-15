@@ -2,7 +2,7 @@ import React from 'react'
 import SimpleReactFooter from "simple-react-footer";
 
 function Footer(props){
-    const description = "Thanks for coming to my page! Down below you can find different ways to contact me!";
+    const description = "Thanks for coming to my page! Down below you can find different ways to contact me! Working on removing youtube button and pinterest button.                             ";
     const title = "";
     const columns = [
         {
@@ -32,7 +32,7 @@ function Footer(props){
         youtube="/"
         pinterest="/"
         iconColor="black"
-        backgroundColor="white"
+        backgroundColor="blue"
         fontColor="black"
         copyrightColor="darkgrey"
     />;

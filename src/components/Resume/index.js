@@ -4,8 +4,8 @@ import React from 'react';
 function Resume() {
   return (
   <div>
-      <h1>Download Resume</h1>
-      <a href="/documents/resume.pdf" download>Resume Download</a>
+      <h1  className="headish">Resume</h1>
+      <a href="/documents/resume.pdf" download>Click to download Resume.</a>
      <div> Proficient at:
     
       <ul className="rlist"><li>HTML</li>

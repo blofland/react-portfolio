@@ -50,5 +50,5 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 JavaScript, React, React-Bootstrap
 ![Screenshot (4)](https://user-images.githubusercontent.com/84938746/141705686-4df26664-73b2-4678-bc85-96b67cd6f446.png)
 
-## Screenshothttps:
-//blofland.github.io/react-portfolio/
+## Screenshot
+https://blofland.github.io/react-portfolio/
